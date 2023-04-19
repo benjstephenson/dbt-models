@@ -6,4 +6,4 @@ select l.city,
   l.location
   from RAW_POS.LOCATION as l
   join RAW_POS.COUNTRY as c 
-  on l.iso_country_code == c.iso_country
+  on l.iso_country_code = c.iso_country
