@@ -2,6 +2,14 @@
 version: 2
 
 models:
+    - name: location_enhanced
+      description: "a test model"
+      columns:
+        - name: city
+        - name: country_code
+        - name: currency_code
+        - name: location
+
     - name: my_first_dbt_model
       description: "A starter dbt model"
       columns:
